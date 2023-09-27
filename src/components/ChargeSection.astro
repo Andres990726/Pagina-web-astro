@@ -1,0 +1,73 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section
+  color="black"
+  title="Model Y"
+  subtitle="Concertar una prueba de conducción"
+>
+  <div class="flex gap-x-6 mx-auto" slot="footer">
+    <a
+      href="#"
+      class="bg-[#171A20CC] text-sm rounded text-white font-medium px-12 py-2 inline-block
+  hover:text-black hover:bg-white transition-colors"
+    >
+      Explorar inventario
+    </a>
+    <a
+      href="#"
+      class="bg-[#F4F4F4A6] text-sm rounded text-black font-medium px-12 py-2 justify-center items-center
+  inline-flex hover:text-white hover:bg-black transition-colors"
+    >
+      Pedidio personalizado
+    </a>
+  </div>
+  <img
+  slot="background"
+  src="/model-y.avif"
+  alt="Model Y"
+  class="h-full w-full object-cover object-center"
+/>
+</Section>
+
+
+<!-- <section
+  class="landing-section bg-black h-screen w-screen text-center relative overflow-hidden"
+  data-header-color="black"
+>
+  <div class="relative z-30 flex h-full flex-col">
+    <header>
+      <h2 class="text-black pt-40 text-[40px] font-medium">Model Y</h2>
+      <p class="text-black text-sm underline">
+        Concertar una prueba de conducción
+      </p>
+    </header>
+    <footer class="flex flex-col flex-grow justify-end pb-20">
+      <div class="flex gap-x-6 mx-auto">
+        <a
+          href="#"
+          class="bg-[#171A20CC] text-sm rounded text-white font-medium px-12 py-2 inline-block
+				hover:text-black hover:bg-white transition-colors"
+        >
+          Explorar inventario
+        </a>
+        <a
+          href="#"
+          class="bg-[#F4F4F4A6] text-sm rounded text-black font-medium px-12 py-2 justify-center items-center
+				inline-flex hover:text-white hover:bg-black transition-colors"
+        >
+          Pedidio personalizado
+        </a>
+      </div>
+    </footer>
+  </div>
+
+  <div class="absolute top-0 bottom-0 h-full w-full z-10">
+    <img
+      src="/model-y.avif"
+      alt="Model Y"
+      class="h-full w-full object-cover object-center"
+    />
+  </div>
+</section> -->
